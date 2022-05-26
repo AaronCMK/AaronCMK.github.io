@@ -11,11 +11,33 @@
 <h6 style="color:maroon; font-style: italic">Run & Gym in a weekly basis</h5>
 </body>
 <h6 style="color:black">BORED</h6>
-<html>public Box<T> Create(T t)
-    {
-      var box = (Box<T>) MemberwiseClone();
-      box._ = t;
-      return box;
-    }</html>
+<style type="text/css">
+	.outer-box {
+		position: absolute;
+		border: 1px solid green;
+		width: 600px;
+		height: 300px;
+		left: 50px;
+		padding-top: 20px;
+		overflow: auto;
+	}
+	.inner-box {
+		position: relative;
+		border: 1px solid green;
+		width: 300px;
+		height: 100px;
+		left: 20px;
+		margin-top: 50px;
+	}
+	.bottom-box {
+		position: relative;
+		margin-top: 20px;
+		border: 1px solid blue;
+		width: 200px;
+		height: 150px;
+		left: 20px;
+	}
+
+</style>	
 </html>
 
